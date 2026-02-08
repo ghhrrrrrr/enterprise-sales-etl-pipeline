@@ -41,3 +41,4 @@ bronze_df.write \
     .mode("overwrite") \
     .option("overwriteSchema", "true") \
     .saveAsTable(table_name)
+
